@@ -8,7 +8,7 @@ The main goal is to create simple solutions/examples to demonstrate capabilities
 ** The decision to not include the .pbix file is due to the work put behind it and the valuable calculations and queries included**
 
 ## Project Architecture
-![alt text](<AWS_Fabric Project.png>)
+![alt text](<screenshots/AWS_Fabric Project.png>)
 
 ## Sources/Connections
 
@@ -28,6 +28,12 @@ The main goal is to create simple solutions/examples to demonstrate capabilities
 * Connection 2: S3 shortcut to the bucket containing the simulated IoT data generated using EC2
 * Connection 3: On-Premise Data Gateway + Dataflow (Gen 2) to load data from the MySQL server and the local files
 * Connection 4: Dataflow (Gen 2) to load data from the weather API connection
+
+![alt text](screenshots/fabric_elements.png)
+
+#### Power BI Report:
+
+![alt text](screenshots/powerbi_report.png)
 
 Notes:
 - Using IAM to comply with Principle of Least Privilege and CloudWatch to monitor the service logs
